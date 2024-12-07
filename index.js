@@ -82,15 +82,7 @@ const makeCommits = (n) => {
 //   stdout.pipe(process.stdout);
 //   stderr.pipe(process.stderr);
 // });
-console.log("Starting commits");
+console.log("Starting commits"
 
-const git = simpleGit();
-
-git
-  .init()
-  .then(() => git.add("."))
-  .then(() => git.commit("Initial commit"))
-  .then(() => console.log("Commit successful"))
-  .catch((err) => console.error("Failed to execute git:", err));
 
 makeCommits(100);
