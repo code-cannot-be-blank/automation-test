@@ -78,4 +78,4 @@ const makeCommits = (n) => {
 };
 2;
 console.log("Starting commits")
-makeCommits(200)
+makeCommits(1000)
