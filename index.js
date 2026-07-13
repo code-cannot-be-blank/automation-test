@@ -77,4 +77,4 @@ const makeCommits = (n) => {
   });
 };
 console.log("Starting commits");
-makeCommits(300);
+makeCommits(500);
