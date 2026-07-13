@@ -75,6 +75,7 @@ const makeCommits = (n) => {
       .add([path])
       .commit(date, { "--date": date }, () => makeCommits(--n));
   });
+
 };
 console.log("Starting commits")
-makeCommits(100)
+makeCommits(500)
